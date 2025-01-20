@@ -129,7 +129,79 @@ main{
     border-radius: 12px;
 }
 
-
+/* curriculum section styles */
+.curriculum{
+    background-image: url('../assets/bg.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.curriculum_title{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 80px;
+}
+.curriculum_cards{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 30px;
+    margin: 80px 0;
+}
+.curriculum_card{
+    border-radius: 20px;
+    padding: 60px 30px;
+    border: 1px solid #DEF5FF;
+}
+.curriculum_c_1{
+    background-image: linear-gradient(180deg, #DEF5FF 0%, #FFFFFF 30%);
+}
+.curriculum_c_2{
+    background-image: linear-gradient(180deg, #FFF4DC 0%, #FFFFFF 30%);
+}
+.curriculum_c_3{
+    background-image: linear-gradient(180deg, #EEE1FF 0%, #FFFFFF 30%);
+}
+.curriculum_card_title{
+    margin-top: 30px;
+}
+.curriculum_description{
+    margin: 30px 0;
+}
+.curriculum_link{
+    text-decoration: none;
+}
+.curriculum_link_1{
+    color: #64C8FF;
+}
+.curriculum_link_2{
+    color: #F0AA00;
+}
+.curriculum_link_{
+    color: #8700FF;
+}
+.slider_arrows{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.slider_arrow{
+    background-color: #F0AA00;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+}
 
 
 /* computer device responsive */
@@ -149,6 +221,7 @@ main{
         display: none;
     }
 
+    /* banner  */
     .banner{
         flex-direction: column;
         width: 90%;
@@ -167,6 +240,20 @@ main{
     }
     .banner_image_container img{
         width: 100%;
+    }
+
+    /* curriculum cards  */
+    .curriculum_cards{
+        width: 90%;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+    }
+    .curriculum_title{
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+    .slider_arrows{
+        display: none;
     }
 
 
