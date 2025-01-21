@@ -329,7 +329,50 @@ footer{
 .footer_content{
     max-width: 1200px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 120px 0;
 }
+.logo_and_title_and_description{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 25%;
+}
+.logo_and_title{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.footer_description{
+    color: white;
+}
+.about_school_container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;  
+}
+.about_school_container{
+    color: white;
+}
+.about_list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.keep_in_touch_container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.keep_in_touch_icons{
+    display: flex;
+    gap: 10px;
+}
+
 
 
 
@@ -405,5 +448,17 @@ footer{
     }
     .stories_bottom_btn_container{
         margin-top: 20px;
+    }
+
+    /* footer */
+    .footer_content{
+        flex-direction: column;
+        gap: 30px;
+        width: 90%;
+        margin: 0 auto;
+        padding: 60px 0;
+    }
+    .logo_and_title_and_description{
+        width: 100%;
     }
 }
