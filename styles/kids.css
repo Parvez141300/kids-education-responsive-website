@@ -14,6 +14,10 @@
     box-sizing: border-box;
 }
 
+/* body style */
+body{
+    background: linear-gradient(0deg, #fea1011f, #FFFFFF), url('../assets/bg.png');
+}
 
 /* desktop header styles */
 header {
@@ -156,7 +160,7 @@ main{
 .curriculum_card{
     border-radius: 20px;
     padding: 60px 30px;
-    border: 1px solid #DEF5FF;
+    border: 3px solid #DEF5FF;
 }
 .curriculum_c_1{
     background-image: linear-gradient(180deg, #DEF5FF 0%, #FFFFFF 30%);
@@ -189,6 +193,7 @@ main{
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin-bottom: 60px;
 }
 .slider_arrow{
     background-color: #F0AA00;
@@ -203,11 +208,135 @@ main{
     color: white;
 }
 
+/* stories section styles */
+.stories_title{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.stories_card{
+    border-radius: 15px;
+    background-color: #FFFFFF;
+}
+.stories_card img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.stories_image_container{
+    width: 100%;
+}
+.stories_image_container img{
+    width: 100%;
+}
+.card_content_1{
+    height: 50%;
+    padding: 30px;
+    position: relative;
+    display: grid;
+    align-content: space-around;
+}
+.card_content_2{
+    padding: 30px;
+    position: relative;
+}
+.card_content_3{
+    padding: 30px;
+    position: relative;
+}
+.card_content_4{
+    padding: 30px;
+    position: relative;
+}
+.card_content_5{
+    padding: 30px;
+    position: relative;
+}
+.stories_cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.sto_ca_1{
+    grid-row: span 2;
+}
+.stories_btn_1{
+    padding: 15px 20px;
+    background-color: #3CD8E8;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: 500;
+    position: absolute;
+    top: -25px;
+    left: 30px;
+}
+.stories_btn_2{
+    padding: 15px 20px;
+    background-color: #95B226;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+    top: -25px;
+}
+.stories_btn_3{
+    padding: 15px 20px;
+    background-color: #5D58F0;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+    top: -25px;
+}
+.stories_btn_4{
+    padding: 15px 20px;
+    background-color: #95B226;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+    top: -25px;
+}
+.stories_btn_5{
+    padding: 15px 20px;
+    background-color: #95B226;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+    top: -25px;
+}
+.stories_bottom_btn_container{
+    text-align: center;
+    margin-top: 80px;
+}
+.stories_bottom_btn{
+    background-color: #111111;
+    color: white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 50px;
+}
+
+/* footer styles  */
+footer{
+    background-color: #01ACFD;
+}
+.footer_content{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
 
 /* computer device responsive */
 
 @media screen and (min-width: 576px){
-    .mobile_nav, .mobile_menu{
+    .mobile_nav, .mobile_menu, .stories_card_4, .stories_card_5{
         display: none;
     }
 }
@@ -256,5 +385,25 @@ main{
         display: none;
     }
 
-
+    /* stories  */
+    .stories_cards{
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+        margin: 0 auto;
+    }
+    .sto_ca_1{
+        display: none;
+    }
+    .stories_btn_2, 
+    .stories_btn_3, 
+    .stories_btn_3, 
+    .stories_btn_4, 
+    .stories_btn_5,
+    .stories_card_title
+    {
+        font-size: 10px;
+    }
+    .stories_bottom_btn_container{
+        margin-top: 20px;
+    }
 }
