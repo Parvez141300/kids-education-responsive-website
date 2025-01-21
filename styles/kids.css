@@ -79,8 +79,11 @@ header {
     padding: 10px 60px;
     border: none;
     border-radius: 12px;
+    transition: 0.5s;
 }
-
+.menu_btn:hover{
+    background-color: red;
+}
 /* mobile header styles */
 .mobile_menu{
     border-bottom: 1px solid #FEA301;
@@ -149,6 +152,10 @@ main{
     padding: 10px 60px;
     border: none;
     border-radius: 12px;
+    transition: 0.5s;
+}
+.banner_btn:hover{
+    background-color: red;
 }
 
 /* curriculum section styles */
@@ -224,7 +231,13 @@ main{
     font-size: 1.8rem;
     font-weight: bold;
     color: white;
+    transition: 0.5s;
 }
+.slider_arrow:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
 
 /* stories section styles */
 .stories_title{
@@ -288,6 +301,10 @@ main{
     position: absolute;
     top: -28px;
     left: 30px;
+    transition: 0.5s;
+}
+.stories_btn_1:hover{
+    background-color: red;
 }
 .stories_btn_2{
     padding: 15px 20px;
@@ -297,6 +314,10 @@ main{
     border-radius: 50px;
     position: absolute;
     top: -28px;
+    transition: 0.5s;
+}
+.stories_btn_2:hover{
+    background-color: red;
 }
 .stories_btn_3{
     padding: 15px 20px;
@@ -306,6 +327,10 @@ main{
     border-radius: 50px;
     position: absolute;
     top: -28px;
+    transition: 0.5s;
+}
+.stories_btn_3:hover{
+    background-color: red;
 }
 .stories_btn_4{
     padding: 15px 20px;
@@ -315,6 +340,10 @@ main{
     border-radius: 50px;
     position: absolute;
     top: -28px;
+    transition: 0.5s;
+}
+.stories_btn_4:hover{
+    background-color: red;
 }
 .stories_btn_5{
     padding: 15px 20px;
@@ -324,6 +353,10 @@ main{
     border-radius: 50px;
     position: absolute;
     top: -28px;
+    transition: 0.5s;
+}
+.stories_btn_5:hover{
+    background-color: red;
 }
 .stories_bottom_btn_container{
     text-align: center;
@@ -338,6 +371,10 @@ main{
     border: none;
     border-radius: 12px;
     margin-bottom: 50px;
+    transition: 0.5s;
+}
+.stories_bottom_btn:hover{
+    background-color: red;
 }
 
 /* footer styles  */
@@ -379,6 +416,10 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+.about_list a{
+    text-decoration: none;
+    color: white;
 }
 .keep_in_touch_container{
     color: white;
