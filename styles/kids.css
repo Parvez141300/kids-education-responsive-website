@@ -97,6 +97,24 @@ header {
     font-size: 2rem;
 }
 
+/* news ticker styles  */
+.scrolling_text_container{
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.scrolling_text_container span{
+    background-color: #FEA301;
+    color: white;
+    padding: 5px 10px;
+    font-weight: 600;
+}
+.scrolling_text_container marquee{
+    padding: 5px 20px;
+}
+
 /* main section styles */
 main{
     max-width: 1200px;
@@ -268,7 +286,7 @@ main{
     color: white;
     font-weight: 500;
     position: absolute;
-    top: -25px;
+    top: -28px;
     left: 30px;
 }
 .stories_btn_2{
@@ -278,7 +296,7 @@ main{
     border: none;
     border-radius: 50px;
     position: absolute;
-    top: -25px;
+    top: -28px;
 }
 .stories_btn_3{
     padding: 15px 20px;
@@ -287,7 +305,7 @@ main{
     border: none;
     border-radius: 50px;
     position: absolute;
-    top: -25px;
+    top: -28px;
 }
 .stories_btn_4{
     padding: 15px 20px;
@@ -296,7 +314,7 @@ main{
     border: none;
     border-radius: 50px;
     position: absolute;
-    top: -25px;
+    top: -28px;
 }
 .stories_btn_5{
     padding: 15px 20px;
@@ -305,7 +323,7 @@ main{
     border: none;
     border-radius: 50px;
     position: absolute;
-    top: -25px;
+    top: -28px;
 }
 .stories_bottom_btn_container{
     text-align: center;
@@ -393,6 +411,12 @@ footer{
         display: none;
     }
 
+    /* new tikcer  */
+    .scrolling_text_container{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
     /* banner  */
     .banner{
         flex-direction: column;
@@ -442,9 +466,13 @@ footer{
     .stories_btn_3, 
     .stories_btn_4, 
     .stories_btn_5,
-    .stories_card_title
-    {
+    .stories_card_title{
         font-size: 10px;
+    }
+    .stories_title{
+        font-size: 1.8rem;
+        margin-top: 60px;
+        margin-bottom: 30px;
     }
     .stories_bottom_btn_container{
         margin-top: 20px;
