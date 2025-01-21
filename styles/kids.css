@@ -205,6 +205,9 @@ main{
 .curriculum_link{
     text-decoration: none;
 }
+.curriculum_link:hover{
+    color: red;
+}
 .curriculum_link_1{
     color: #64C8FF;
 }
